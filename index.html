@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hewan Legesse | Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2d873205fe.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Hewan.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#travel">Travel</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>Admin and Finance Proffecional</p>
+                <h1>Hi, I'm <span>Hewan</span><br>wellocme to my page</h1>
+            </div>
+        </div>
+    </div>
+    <!----------------------about------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="images/hewanpic.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Hewan Legesse, a dedicated and passionate Administrative Professional 
+                        with over four years of experience in the fields of finance and project management. 
+                        My journey began with a degree in Business Administration, which laid a strong 
+                        foundation for my career.
+                        I have had the privilege of working with international 
+                        organizations, such as GIZ African Union, 
+                        where I've managed logistics, finance, and coordination for numerous workshops and 
+                        events across Africa and Europe. I thrive in dynamic environments and enjoy the 
+                        challenges that come with supporting impactful projects.</p>
+                        <div class="tab-tiles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                            <p class="tab-links"onclick="opentab('hobbies')">Hobbies</p>
+                        </div>
+                        
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Attention to Detail</span><br> I take time to double-check my work before calling it “finished.”</li>
+                                <li><span>Willingness to Learn</span><br> I'm open to new ideas, tools, and ways of thinking</li>
+                                <li><span>Good Listener</span><br> I pay attention to what others are saying without interrupting</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021-Current</span><br>Administrative officer at GIZ AU</li>
+                                <li><span>2020-2019</span><br>Executive Secretary at Rebecca Real Estate</li>
+                                <li><span>2018-2019</span><br> Administrative Assistant at Icoglabs Software concultancy</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2025</span><br>Certeficate Result Oriented Project Management</li>
+                                <li><span>2025</span><br>BBA Computer Science</li>
+                                <li><span>2023</span><br>Certeficate Project Management</li>
+                                <li><span>2010</span><br> Diploma Information Technology</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="hobbies">
+                            <ul>
+                                <li><span>Reading</span><br>I love to read Spiritual books and criminal fiction books.</li>
+                                <li><span>Baking</span><br> I love to bake or cook when ever I have time</li>
+                                 <li><span>Organizing my belongings</span><br> I find joy in keeping my space clean and well-organized — I often rearrange my room to refresh my environment and improve how it feels. It’s a simple habit that brings clarity and focus to my day. </li>
+                                <li><span>Watch movie</span><br> I love to watch commedy movies </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------travel---------------->
+<div id="travel">
+    <div class="container">
+    <h1 class="sub-title">My Travel History</h1>
+    <div class="travel-list">
+        <div>
+            <i class="fa-solid fa-plane"></i>
+            <h2>Abu Dhabi, UAE</h2>
+            <P>I spent nearly four years in Abu Dhabi and greatly appreciated the country's hospitality, cultural diversity, and strong sense of safety. The variety of food is impressive, and there are countless places to explore. 
+                While the summers are extremely hot, the winter months can get surprisingly cold. Their currency is Dirham.</P>
+            
+        </div>
+         <div>
+            <i class="fa-solid fa-suitcase"></i>
+            <h2>Nairobo, Kenya</h2>
+            <P>I visited Nairobi for a three-day meeting, and I quickly fell in love with the city. It felt like home — the people were welcoming, and I had the chance to explore some beautiful places. 
+                Their currency is the Kenyan shilling </P>
+            
+        </div>
+         <div>
+            <i class="fa-solid fa-passport"></i>
+            <h2>Kigali, Rwanda</h2>
+            <P>I have stayed in Kigali for a week, Kigali left a lasting impression on me — it’s one of the cleanest, calmest, and most organized cities I’ve visited in Africa. 
+                The people are kind and respectful, the streets are peaceful, and there’s a strong sense of safety. I especially admired how the city balances modern development with deep cultural roots. 
+                It’s a place I’d love to return to</P>
+            
+        </div>
+         <div>
+            <i class="fa-solid fa-earth-americas"></i>
+            <h2>Windhoek, Namibia</h2>
+            <P>I was in Windhoek, Namibia for a week to attend a workshop, and it turned out to be a truly memorable experience. The city is peaceful, clean, 
+                and surrounded by stunning natural scenery. I appreciated the blend of modern life with cultural heritage, and the people were warm and welcoming. 
+                Though my stay was short, I left with a deep sense of calm and admiration for the country.</P>
+           
+        </div>
+         <div>
+            <i class="fa-solid fa-plane"></i>
+            <h2>Bangkonk, Thailand</h2>
+            <P>I was in Bangkok, Thailand for a one-week training, and the experience was both enriching and enjoyable. 
+                The city is full of energy, culture, and color — from its flavorful street food to its beautiful temples and lively markets. 
+                The people were welcoming, and I appreciated the mix of tradition and modernity throughout the city. Even with a busy schedule, 
+                I managed to explore a few places, and I’d love to go back and see more.</P>
+            
+        </div>
+    </div>
+    </div>
+    </div>
+    <!----------------------Portfolio--------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+<div class="work-list">
+    <div class="work">
+        <img src="images/Baklava.jpg">
+        <div class="layer">
+            <h3>Baklava</h3>
+            <p>I’m excited to share that I’m starting a new business focused on homemade baklava. Combining my love for baking with traditional flavors, I plan to offer fresh, delicious baklava made with high-quality ingredients and careful craftsmanship. 
+                It’s a passion project that I hope will bring joy to many through this classic, sweet treat</p>
+        </div>
+    </div>
+    <div class="work">
+        <img src="images/cupcake.jpg">
+        <div class="layer">
+            <h3>Cupcake</h3>
+            <p>I enjoy baking homemade cupcakes — from classic vanilla to rich chocolate and creative flavors. Each cupcake is made with love, using fresh ingredients and decorated to bring a little joy with every bite.
+                 Baking cupcakes lets me express creativity and share happiness with family, friends, or customers.</p>
+        </div>
+    </div>
+    <div class="work">
+        <img src="images/cookies.jpg">
+        <div class="layer">
+            <h3>Cookies</h3>
+            <p>Baking homemade cookies is another favorite pastime of mine. Whether it’s chewy chocolate chip, 
+                buttery shortbread, or spiced oatmeal, I love experimenting with flavors and sharing these comforting treats with others. 
+                Cookies are perfect for any occasion and always bring smiles.</p>
+        </div>
+    </div>
+</div>
+<a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<!-------------------------contact----------------------------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+    
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> hewanlege1@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>+251 953 908 277</p>
+        <div class="social-icons">
+          <a href="https://web.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://x.com/home"><i class="fa-brands fa-twitter-square"></i></a>
+          <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="Hewan CV.pdf" download class="btn btn2">Download CV</a>
+      </div> <!--  End of contact-left -->
+
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+                <span id="msg"></span>
+             </div>   
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Hewan. Made with <i class="fa-solid fa-heart"></i>and passion.</p>
+    </div>
+</div>
+<script>
+    var tablinks = document .getElementsByClassName("tab-links");
+    var tabcontents = document .getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwdYSSZWjzy8wbpKZvEmNZaSFey_wGlwK92qpy9qh-yerbI_WwFN1eEKLpLou0t2vnQcg/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {msg.innerHTML= "Message sent successfuly"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  </body>
